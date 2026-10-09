@@ -1,159 +1,59 @@
 {
-    "name": "My Example Source",
-    "subtitle": "All my apps in one place.",
-    "description": "Welcome to my source! Here you'll find all of my apps.",
-    "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
-    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
-    "website": "https://example.com",
-    "fediUsername": "My Fediverse Username",
-    "tintColor": "#4185A9",
-    "featuredApps": [
-        "com.example.myapp",
-        "com.example.anotherapp"
-    ],
-    "apps": [
+  "name": "OG Fortnite 31.41 Source",
+  "subtitle": "Classic Fortnite for iOS",
+  "description": "Install OG Fortnite 31.41 through AltStore.",
+  "iconURL": "https://YOUR-DOMAIN/source-icon.png",
+  "headerURL": "https://YOUR-DOMAIN/header.png",
+  "website": "https://YOUR-WEBSITE.com",
+  "tintColor": "#4185A9",
+
+  "featuredApps": [
+    "com.epicgames.fortnite"
+  ],
+
+  "apps": [
+    {
+      "name": "OG Fortnite 31.41",
+      "bundleIdentifier": "com.epicgames.fortnite",
+      "developerName": "Epic Games",
+      "subtitle": "Fortnite 31.41",
+      "localizedDescription": "Fortnite version 31.41 for iOS.",
+
+      "iconURL": "https://YOUR-DOMAIN/fortnite-icon.png",
+      "tintColor": "#5CA399",
+
+      "screenshots": [
+        "https://YOUR-DOMAIN/screenshot1.png",
+        "https://YOUR-DOMAIN/screenshot2.png",
         {
-            "name": "My Example App",
-            "bundleIdentifier": "com.example.myapp",
-            "marketplaceID": "0123456789",
-            "developerName": "Example Developer",
-            "subtitle": "An awesome app.",
-            "localizedDescription": "This is an awesome app only available on AltStore.",
-            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
-            "tintColor": "#5CA399",
-            "screenshots": [
-                "https://example.com/myapp_portrait_screenshot1.png",
-                "https://example.com/myapp_portrait_screenshot2.png",
-                {
-                    "imageURL": "https://example.com/myapp_landscape_screenshot.png",
-                    "width": 2556,
-                    "height": 1179
-                }
-            ],
-            "versions": [
-                {
-                    "version": "1.1",
-                    "buildVersion": "2",
-                    "date": "2022-05-01T09:00:00-08:00",
-                    "size": 20000000,
-                    "downloadURL": "https://cdn.discordapp.com/attachments/1548376525156655124/1556749563409342564/Fortnite-31.41_version.ipa?backend=b2&ex=6aca9182&is=6ac94002&hm=160bda4e7ca3dac885af28fcf4d7f86e1c5076f38b735f785b5c1ea07669f12f&",
-                    "localizedDescription": "New features and bug fixes.",
-                    "minOSVersion": "12.0"
-                },
-                {
-                    "version": "1.0",
-                    "buildVersion": "1",
-                    "date": "2022-03-16T07:00:00-08:00",
-                    "size": 10000000,
-                    "downloadURL": "https://cdn.discordapp.com/attachments/1548376525156655124/1556749563409342564/Fortnite-31.41_version.ipa?backend=b2&ex=6aca9182&is=6ac94002&hm=160bda4e7ca3dac885af28fcf4d7f86e1c5076f38b735f785b5c1ea07669f12f&",
-                    "localizedDescription": "Initial release."
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [
-                    "com.apple.security.application-groups",
-                    "com.apple.developer.siri"
-                ],
-                "privacy": {
-                    "NSPhotoLibraryUsageDescription": "App saves photos to your Photo Library.",
-                    "NSCameraUsageDescription": "App uses camera to take photos.",
-                    "NSMicrophoneUsageDescription": "App uses microphone to record video."
-                }
-            }
-        },
-        {
-            "name": "Another Example App",
-            "bundleIdentifier": "com.example.anotherapp",
-            "marketplaceID": "9876543210",
-            "developerName": "Example Developer",
-            "subtitle": "Another awesome app.",
-            "localizedDescription": "This is another awesome app only available on AltStore.",
-            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/SharkApp.png",
-            "tintColor": "#3660A2",
-            "screenshots": {
-                "iphone": [
-                    "https://example.com/anotherapp_portrait_1.png",
-                    "https://example.com/anotherapp_portrait_2.png",
-                    {
-                        "imageURL": "https://example.com/anotherapp_landscape.png",
-                        "width": 2556,
-                        "height": 1179
-                    }
-                ],
-                "ipad": [
-                    {
-                        "imageURL": "https://example.com/anotherapp_ipad_portrait.png",
-                        "width": 1668,
-                        "height": 2388
-                    },
-                    {
-                        "imageURL": "https://example.com/anotherapp_ipad_landscape.png",
-                        "width": 2388,
-                        "height": 1668
-                    }
-                ]
-            },
-            "versions": [
-                {
-                    "version": "1.2",
-                    "buildVersion": "3",
-                    "date": "2022-06-21T09:00:00-08:00",
-                    "downloadURL": "https://example.com/anotherapp_v1.2.ipa",
-                    "localizedDescription": "Bug fixes and performance improvements.",
-                    "size": 81514,
-                    "minOSVersion": "13.0"
-                },
-                {
-                    "version": "1.1",
-                    "buildVersion": "2",
-                    "date": "2022-04-15T10:00:00-08:00",
-                    "downloadURL": "https://example.com/anotherapp_v1.1.ipa",
-                    "localizedDescription": "New features!",
-                    "size": 81364,
-                    "minOSVersion": "13.0",
-                    "maxOSVersion": "16.3"
-                },
-                {
-                    "version": "1.0",
-                    "buildVersion": "1",
-                    "date": "2022-02-02T07:00:00-08:00",
-                    "downloadURL": "https://example.com/anotherapp_v1.0.ipa",
-                    "localizedDescription": "Initial release.",
-                    "size": 79821
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [
-                    "com.apple.developer.healthkit",
-                    "com.apple.developer.game-center"
-                ],
-                "privacy": {
-                    "NSLocalNetworkUsageDescription": "App scans the local network for nearby computers."
-                }
-            }
+          "imageURL": "https://YOUR-DOMAIN/screenshot3.png",
+          "width": 2556,
+          "height": 1179
         }
-    ],
-    "news": [
+      ],
+
+      "versions": [
         {
-            "title": "New Feature Announcement",
-            "identifier": "new_feature",
-            "caption": "Introducing a new feature in AltStore!",
-            "date": "2023-03-15",
-            "tintColor": "#5CA399",
-            "imageURL": "https://example.com/new_feature_image.png",
-            "notify": true,
-            "url": "https://example.com/new_feature_details"
-        },
-        {
-            "title": "App Update Available",
-            "identifier": "app_update",
-            "caption": "An update is available for My Example App.",
-            "date": "2023-03-10T10:00:00-07:00",
-            "tintColor": "#3660A2",
-            "imageURL": "https://example.com/app_update_image.png",
-            "notify": false,
-            "appID": "com.example.myapp"
+          "version": "31.41",
+          "date": "2026-10-09T00:00:00Z",
+          "size": 200000000,
+          "downloadURL": "https://cdn.discordapp.com/attachments/1548376525156655124/1556749563409342564/Fortnite-31.41_version.ipa?backend=b2&ex=6aca9182&is=6ac94002&hm=160bda4e7ca3dac885af28fcf4d7f86e1c5076f38b735f785b5c1ea07669f12f&",
+          "localizedDescription": "Fortnite 31.41 release.",
+          "minOSVersion": "16.0"
         }
-    ]
+      ]
+    }
+  ],
+
+  "news": [
+    {
+      "title": "OG Fortnite 31.41 Available",
+      "identifier": "fortnite_3141",
+      "caption": "Fortnite 31.41 is now available.",
+      "date": "2026-10-09",
+      "tintColor": "#5CA399",
+      "imageURL": "https://YOUR-DOMAIN/news-image.png",
+      "notify": true
+    }
+  ]
 }
-          
