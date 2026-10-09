@@ -1,1 +1,61 @@
+{
+  "name": "OG Fortnite 31.41 Source",
+  "subtitle": "Classic Fortnite for iOS",
+  "description": "Install OG Fortnite 31.41 through AltStore.",
+  "iconURL": "https://YOUR-DOMAIN/source-icon.png",
+  "headerURL": "https://YOUR-DOMAIN/header.png",
+  "website": "https://Srv.lat",
+  "tintColor": "#4185A9",
 
+  "featuredApps": [
+    "com.epicgames.fortnite"
+  ],
+
+  "apps": [
+    {
+      "name": "OG Fortnite 31.41",
+      "bundleIdentifier": "com.epicgames.fortnite",
+      "developerName": "Epic Games",
+      "subtitle": "Fortnite 31.41",
+      "localizedDescription": "Fortnite version 31.41 for iOS.",
+
+      "iconURL": "https://YOUR-DOMAIN/fortnite-icon.png",
+
+      "tintColor": "#5CA399",
+
+      "screenshots": [
+        "https://YOUR-DOMAIN/screenshot1.png",
+        "https://YOUR-DOMAIN/screenshot2.png",
+        {
+          "imageURL": "https://YOUR-DOMAIN/screenshot3.png",
+          "width": 2556,
+          "height": 1179
+        }
+      ],
+
+      "versions": [
+        {
+          "version": "31.41",
+          "buildVersion": "31.41",
+          "date": "2026-10-09T00:00:00Z",
+          "size": 200000000,
+          "downloadURL": "https://cdn.discordapp.com/attachments/1548376525156655124/1556749563409342564/Fortnite-31.41_version.ipa?backend=b2&ex=6aca9182&is=6ac94002&hm=160bda4e7ca3dac885af28fcf4d7f86e1c5076f38b735f785b5c1ea07669f12f&",
+          "localizedDescription": "Fortnite 31.41 release.",
+          "minOSVersion": "16.0"
+        }
+      ]
+    }
+  ],
+
+  "news": [
+    {
+      "title": "OG Fortnite 31.41 Available",
+      "identifier": "fortnite_3141",
+      "caption": "Fortnite 31.41 is now available.",
+      "date": "2026-10-09",
+      "tintColor": "#5CA399",
+      "imageURL": "https://YOUR-DOMAIN/news-image.png",
+      "notify": true
+    }
+  ]
+}
