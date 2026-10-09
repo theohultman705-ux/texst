@@ -6,6 +6,7 @@
   "headerURL": "https://YOUR-DOMAIN/header.png",
   "website": "https://Srv.lat",
   "tintColor": "#4185A9",
+  "marketplaceID": "1234567890"
 
   "featuredApps": [
     "com.epicgames.fortnite"
