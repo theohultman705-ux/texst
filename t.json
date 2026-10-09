@@ -19,7 +19,7 @@
             "developerName": "Epic Games Sweden AB",
             "subtitle": "An awesome app.",
             "localizedDescription": "This is an awesome app only available on AltStore.",
-            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
+            "iconURL": "https://content-download-egs.distro.on.epicgames.com/.well-known/EG-Shield-2023-Black-dual-tone-expanded.png",
             "tintColor": "#5CA399",
             "screenshots": [
                 "https://example.com/myapp_portrait_screenshot1.png",
