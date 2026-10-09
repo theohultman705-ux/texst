@@ -1,5 +1,5 @@
 {
-    "name": "OG Fortnite Source",
+    "name": "My Example Source",
     "subtitle": "All my apps in one place.",
     "description": "Welcome to my source! Here you'll find all of my apps.",
     "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
@@ -13,13 +13,13 @@
     ],
     "apps": [
         {
-            "name": "OG Fortnite 31.41",
+            "name": "fortnite",
             "bundleIdentifier": "com.epicgames.FortniteGame",
             "marketplaceID": "1549027048",
-            "developerName": "Epic Games Sweden AB",
+            "developerName": "Example Developer",
             "subtitle": "An awesome app.",
             "localizedDescription": "This is an awesome app only available on AltStore.",
-            "iconURL": "https://content-download-egs.distro.on.epicgames.com/.well-known/EG-Shield-2023-Black-dual-tone-expanded.png",
+            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
             "tintColor": "#5CA399",
             "screenshots": [
                 "https://example.com/myapp_portrait_screenshot1.png",
@@ -59,12 +59,55 @@
                     "NSCameraUsageDescription": "App uses camera to take photos.",
                     "NSMicrophoneUsageDescription": "App uses microphone to record video."
                 }
-
+            }
+        },
+        {
+            "name": "Another Example App",
+            "bundleIdentifier": "com.example.anotherapp",
+            "marketplaceID": "9876543210",
+            "developerName": "Example Developer",
+            "subtitle": "Another awesome app.",
+            "localizedDescription": "This is another awesome app only available on AltStore.",
+            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/SharkApp.png",
+            "tintColor": "#3660A2",
+            "screenshots": {
+                "iphone": [
+                    "https://example.com/anotherapp_portrait_1.png",
+                    "https://example.com/anotherapp_portrait_2.png",
+                    {
+                        "imageURL": "https://example.com/anotherapp_landscape.png",
+                        "width": 2556,
+                        "height": 1179
+                    }
+                ],
+                "ipad": [
+                    {
+                        "imageURL": "https://example.com/anotherapp_ipad_portrait.png",
+                        "width": 1668,
+                        "height": 2388
+                    },
+                    {
+                        "imageURL": "https://example.com/anotherapp_ipad_landscape.png",
+                        "width": 2388,
+                        "height": 1668
+                    }
+                ]
+            },
+            "versions": [
+                {
+                    "version": "1.2",
+                    "buildVersion": "3",
+                    "date": "2022-06-21T09:00:00-08:00",
+                    "downloadURL": "https://example.com/anotherapp_v1.2.ipa",
+                    "localizedDescription": "Bug fixes and performance improvements.",
+                    "size": 81514,
+                    "minOSVersion": "13.0"
+                },
                 {
                     "version": "1.1",
                     "buildVersion": "2",
                     "date": "2022-04-15T10:00:00-08:00",
-                    "downloadURL": "https://cdn.discordapp.com/attachments/1548376525156655124/1556749563409342564/Fortnite-31.41_version.ipa?backend=b2&ex=6aca9182&is=6ac94002&hm=160bda4e7ca3dac885af28fcf4d7f86e1c5076f38b735f785b5c1ea07669f12f&",
+                    "downloadURL": "https://example.com/anotherapp_v1.1.ipa",
                     "localizedDescription": "New features!",
                     "size": 81364,
                     "minOSVersion": "13.0",
@@ -74,7 +117,7 @@
                     "version": "1.0",
                     "buildVersion": "1",
                     "date": "2022-02-02T07:00:00-08:00",
-                    "downloadURL": "https://cdn.discordapp.com/attachments/1548376525156655124/1556749563409342564/Fortnite-31.41_version.ipa?backend=b2&ex=6aca9182&is=6ac94002&hm=160bda4e7ca3dac885af28fcf4d7f86e1c5076f38b735f785b5c1ea07669f12f&",
+                    "downloadURL": "https://example.com/anotherapp_v1.0.ipa",
                     "localizedDescription": "Initial release.",
                     "size": 79821
                 }
