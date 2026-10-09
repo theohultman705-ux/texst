@@ -1,40 +1,21 @@
 {
   "name": "OG Fortnite Source",
-  "subtitle": "Classic Fortnite for iOS",
-  "description": "Install Fortnite 31.41 for iOS",
-  "iconURL": "https://cdn1.epicgames.com/item/fn/FN_Logo_512x512_1024x1024-0a19a924e7f61249ab0c76569abfdc31",
-  "website": "https://epicgames.com",
-  "tintColor": "#818181",
-
   "featuredApps": [
     "com.epicgames.FortniteGame"
   ],
-
   "apps": [
     {
       "name": "OG Fortnite 31.41",
       "bundleIdentifier": "com.epicgames.FortniteGame",
       "marketplaceID": "1549027048",
       "developerName": "Epic Games Sweden AB",
-      "subtitle": "Fortnite 31.41",
-      "localizedDescription": "Fortnite version 31.41 for iOS.",
-      "iconURL": "https://cdn1.epicgames.com/item/fn/FN_Logo_512x512_1024x1024-0a19a924e7f61249ab0c76569abfdc31",
-      "tintColor": "#818181",
-      "category": "games",
-
       "versions": [
         {
           "version": "31.41",
           "buildVersion": "37333460.1.4",
-          "date": "2024-10-25T00:00:00.0000000Z",
-          "size": 504305664,
-          "downloadURL": "https://cdn.discordapp.com/attachments/1548376525156655124/1556749563409342564/Fortnite-31.41_version.ipa?backend=b2&ex=6aca9182&is=6ac94002&hm=160bda4e7ca3dac885af28fcf4d7f86e1c5076f38b735f785b5c1ea07669f12f&",
-          "localizedDescription": "",
-          "minOSVersion": "17.6"
+          "downloadURL": "https://cdn.discordapp.com/attachments/1548376525156655124/1556749563409342564/Fortnite-31.41_version.ipa?backend=b2&ex=6aca9182&is=6ac94002&hm=160bda4e7ca3dac885af28fcf4d7f86e1c5076f38b735f785b5c1ea07669f12f&"
         }
       ]
     }
-  ],
-
-  "news": []
+  ]
 }
