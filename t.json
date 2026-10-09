@@ -6,7 +6,6 @@
   "headerURL": "https://YOUR-DOMAIN/header.png",
   "website": "https://Srv.lat",
   "tintColor": "#4185A9",
-  "marketplaceID": "1234567890"
 
   "featuredApps": [
     "com.epicgames.fortnite"
@@ -15,7 +14,8 @@
   "apps": [
     {
       "name": "OG Fortnite 31.41",
-      "bundleIdentifier": "com.epicgames.fortnite",
+      "bundleIdentifier": "com.epicgames.fortnite"
+      "marketplaceID": "1234567890",
       "developerName": "Epic Games",
       "subtitle": "Fortnite 31.41",
       "localizedDescription": "Fortnite version 31.41 for iOS.",
