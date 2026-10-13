@@ -1,0 +1,32 @@
+{
+  "name": "Fortnite OG",
+  "description": "this is fortnite og a game that is old fortnite",
+  "iconURL": "https://static.wikia.nocookie.net/guitar/images/a/a5/IconFortniteUnderground.jpg/revision/latest?cb=20240313052915",
+  "website": "srv.lat",
+  "tintColor": "#4E8FFF",
+  "apps": [
+    {
+      "name": "Fortnite og season 4 31.41",
+      "bundleIdentifier": "com.epicgames.FortniteGame",
+      "marketplaceID": "6483539426",
+      "developerName": "Stelemanuele77&Thomas",
+      "localizedDescription": "this is a game where you can play old fortnite and old modes like rocket racing that fortnite dont have anymore",
+      "iconURL": "https://static.wikia.nocookie.net/guitar/images/a/a5/IconFortniteUnderground.jpg/revision/latest?cb=20240313052915",
+      "tintColor": "#7366FF",
+      "category": "games",
+      "versions": [
+        {
+          "version": "31.41",
+          "buildVersion": "1",
+          "date": "2026-10-13T15:15:17Z",
+          "downloadURL": "https://raw.githubusercontent.com/theohultman705-ux/texst/refs/heads/main/t.json",
+          "size": 266338304
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ]
+}
