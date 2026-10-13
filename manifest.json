@@ -1,4 +1,5 @@
 {
+  "appIdentifier": "com.epicgames.FortniteGame",
   "bundleIdentifier": "com.epicgames.FortniteGame",
   "version": "31.41",
   "buildVersion": "1",
